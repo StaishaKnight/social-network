@@ -39,7 +39,7 @@ const thoughtController = {
       });
   },
 
- // add thought to users 
+ // add thought to user 
   createThought({ body }, res) {
     Thought.create(body)
         .then(({ _id }) => {
