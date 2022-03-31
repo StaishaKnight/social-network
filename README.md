@@ -12,15 +12,17 @@
 [7. Submission](#Submission)   
 [8. Questions](#Questions)  
 ## Description:
-This is a set of API for a social network that uses a MongoDB database so that the website can handle large amounts of unstructured data, Express.js for routing, Mongoose ODM, and the moment package to format time stamps.
+This is social network  uses a MongoDB database to handle large amounts of unstructured data such as Mongoose ODM, Express.js for routing, , and the moment package to format time stamps.
 
 ## Acceptance Criteria:
-
-- When you enter the command to invoke the application then the server is started and the Mongoose models are synced to the MongoDB database.  
-- Testing API GET routes in Insomnia Core for users and thoughts return the data for each of these routes in a formatted JSON
-- Testing API POST, PUT, and DELETE routes in Insomnia Core are able to successfully create, update, and delete users and thoughts
-
-- Testing API POST and DELETE routes in Insomnia Core are able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list.
+WHEN I enter the command to invoke the application
+THEN my server is started and the Mongoose models are synced to the MongoDB database
+WHEN I open API GET routes in Insomnia for users and thoughts
+THEN the data for each of these routes is displayed in a formatted JSON
+WHEN I test API POST, PUT, and DELETE routes in Insomnia
+THEN I am able to successfully create, update, and delete users and thoughts in my database
+WHEN I test API POST and DELETE routes in Insomnia
+THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
 
 ## Walkthrough Videos
 [User Routes](https://drive.google.com/file/d/1WMXQbCPAECIsU78gSpFk8IejF80_jtpW/view)  
