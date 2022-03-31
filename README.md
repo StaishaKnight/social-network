@@ -30,11 +30,10 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 [Thought Routes](https://drive.google.com/file/d/17ocul_N5VOl4O70y8XEILtf8691lvxEj/view)  
 [Reaction Routes](https://drive.google.com/file/d/1gB0kILBgkD4XEpFXOeq6v5YhxP75W27d/view)  
 
-## Installation:
-This repo is not to be deployed, if you wanted to, you could by doing the following:  
-1. Download the repo files from the link below
-2. You must have mongoDB installed
-3. Run the following at the command line
+## Installation: 
+1. Clone the repo 
+2. Install mongoDB if you dont have it already
+3. Run the following commands
 ```
     - npm init -y
     - npm install express
@@ -43,18 +42,18 @@ This repo is not to be deployed, if you wanted to, you could by doing the follow
 ```
 4. Start the server
 ```
-    $ npm start
+    - $ npm start
 ```
-5. Open Insomnia Core to test API routes
+5. Open Insomnia to test API routes
 
 ## Tests:  
 
-Testing restful API calls with Insomnia Core  
+Testing restful API calls with Insomnia   
 
 ---
 **`http://localhost:3001/api/users/`**
-* `GET` all users
-* `POST` a new user:
+* `GET` Get users
+* `POST` post new user:
     ```json
     // example data
     {
@@ -64,30 +63,30 @@ Testing restful API calls with Insomnia Core
     ```
 ---
 **`http://localhost:3001/api/users/:userid`**
-* `GET` a single user by its `_id` 
-* `PUT` to update a user by its `_id`
-* `DELETE` to remove user by its `_id`
+* `GET` single user by `_id` 
+* `PUT` update user by  `_id`
+* `DELETE` remove user by `_id`
 ---
 **`http://localhost:3001/api/users/:userId/friends/:friendId`**
-* `POST` to add a new friend to a user's friend list
-* `DELETE` to remove a friend from a user's friend list
+* `POST` add a new friend to friend list
+* `DELETE` remove a friend from friend list
 ---
 **`http://localhost:3001/api/thoughts`** 
-* `GET` to get all thoughts
-* `POST` to create a new thought
+* `GET` get all thoughts
+* `POST` create a new thought
     ```json
     // example data
     {
     "thoughtText": "This is amazing news!",
     "username": "ladybug",
-    "userId": "5edff358a0fcb779aa7b118b"
+    "userId": "7ldrr57b8a03ug4ta7gjr8"
     }
     ```
 ---
 **`http://localhost:3001/api/thoughts/:thoughtId`**
-* `GET` to get a single thought by its `_id`
-* `PUT` to update a thought by its `_id`
-* `DELETE` to remove a thought by its `_id`
+* `GET` get a single thought by  `_id`
+* `PUT` update a thought by `_id`
+* `DELETE` remove a thought by `_id`
 ---
 
 **`http://localhost:3001/api/thoughts/:thoughtId/reactions`**
@@ -96,7 +95,7 @@ Testing restful API calls with Insomnia Core
     ```json
     // example data
     {
-    "reactionBody":"Hell Yeah!!",
+    "reactionBody":"Awesome!!",
     "username":"ladybug"
     }
     ```
@@ -106,11 +105,11 @@ Testing restful API calls with Insomnia Core
 
 
 ## Submission:
- [Github repository] 
-
+ [Github repository] https://github.com/StaishaKnight/social-network.git
+ 
 ## Questions:
  Here is a link to my github:  
-  
+  https://github.com/StaishaKnight
  Email me at:  
 staishaknight@gmail.com  
 for additional questions
