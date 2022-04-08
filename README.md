@@ -1,4 +1,5 @@
-# Social-Network-API
+# Social-Network
+
 
 ![](https://img.shields.io/badge/Created%20by-Victor%20Cesar%20Lopez-blue?style=for-the-badge)  
 ![](https://img.shields.io/badge/Database-MongoDB-yellow?style=flat-square&logo=mongoDB)  ![](https://img.shields.io/badge/npm%20package-express-orange?style=flat-square&logo=npm) ![](https://img.shields.io/badge/npm%20package-mongoose-cyan?style=flat-square&logo=npm) ![](https://img.shields.io/badge/npm%20package-moment-%3CCOLOR%3E?style=flat-square&logo=npm)
@@ -25,6 +26,12 @@ WHEN I test API POST and DELETE routes in Insomnia
 THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
 
 ## Walkthrough Video
+
+[Userroutes]https://bootcampspot.instructuremedia.com/embed/eff73cbc-0a81-44fb-8baa-1a1aa04de1dc
+[friendroutes]https://bootcampspot.instructuremedia.com/embed/4f56ff09-45e8-4b96-80c8-92a8b5218ce4
+[thoughtroutes]https://bootcampspot.instructuremedia.com/embed/29dfe535-98c7-47c3-ad1b-0db3f948c188
+[Reactionroutes] https://bootcampspot.instructuremedia.com/embed/e8dc12c3-51ed-4dde-b702-64a8d9c52270
+
   
 
 ## Installation: 
@@ -76,7 +83,7 @@ Testing restful API calls with Insomnia
     {
     "thoughtText": "This is amazing news!",
     "username": "ladybug",
-    "userId": "7ldrr57b8a03ug4ta7gjr8"
+    "userId": "http://localhost:3001/api/thoughts"
     }
     ```
 ---
